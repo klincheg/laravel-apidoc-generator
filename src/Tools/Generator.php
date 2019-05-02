@@ -383,6 +383,8 @@ class Generator
             'number' => 'floatval',
             'float' => 'floatval',
             'boolean' => 'boolval',
+            'array' => 'json_decode',
+            'json' => 'json_decode',
         ];
 
         // First, we handle booleans. We can't use a regular cast,
